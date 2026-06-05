@@ -11,8 +11,8 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
-    // Use Netlify preset for deployment
-    nitro: { preset: "netlify" },
+    // Use Vercel preset for deployment (better TanStack Start support)
+    nitro: { preset: "vercel" },
   },
   vite: {
     server: {

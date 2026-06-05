@@ -14,6 +14,7 @@ export default defineConfig({
     // Use Vercel preset for deployment (better TanStack Start support)
     nitro: { preset: "vercel" },
   },
+  nitro: true,
   vite: {
     server: {
       port: 3000,

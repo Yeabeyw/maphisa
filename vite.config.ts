@@ -11,10 +11,9 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
-    // Use Vercel preset for deployment (better TanStack Start support)
-    nitro: { preset: "vercel" },
+    // Disable SSR for static deployment
+    ssr: false,
   },
-  nitro: true,
   vite: {
     server: {
       port: 3000,

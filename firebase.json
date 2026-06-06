@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "maphisa-barbershop",
-    "public": "dist",
+    "public": "dist/client",
     "ignore": [
       "firebase.json",
       "**/.*",

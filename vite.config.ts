@@ -13,6 +13,7 @@ export default defineConfig({
     server: { entry: "server" },
     // Disable SSR for static deployment
     ssr: false,
+    target: "static",
   },
   vite: {
     server: {
